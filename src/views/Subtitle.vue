@@ -118,7 +118,6 @@ export default {
   },
   methods:{
     drawSubtitle:function(){
-      console.log('绘制文字');
       let canvas=document.getElementById("canvas");
       canvas.width=1280
       let ctx=canvas.getContext("2d");
@@ -126,7 +125,6 @@ export default {
       ctx.globalAlpha=this.applyOptions.alpha;
       ctx.textBaseline='top'
       let font=(this.applyOptions.fontStyle?'italic ':'normal ')+(this.applyOptions.fontWeight?'bold ':'normal ')+this.applyOptions.fontSize+'px '+this.applyOptions.fontFamily
-      console.log(font);
       ctx.font = font;
       ctx.textAlign=this.applyOptions.textAlign
       if(this.applyOptions.fontShadow){

@@ -383,7 +383,6 @@ export default {
             num = Math.ceil(this.numMax * (1 - Y)/2);
             alpha = Math.max(0.1,Math.ceil(this.alphaMax * (Y - 0.5) * 2 * 100) / 100);
             deg = Math.ceil(this.degMax * (1 - Y) * 100) / 100;
-            console.log(num, alpha, deg);
             canvas = this.openCanvas;
           }
         }
@@ -639,7 +638,6 @@ export default {
     getYbyX: function (x) {
       const dict = this.bezier.get(x);
       const { y } = dict;
-      // console.log("x", x, dict.x, "y", y);
       return y;
     },
     //上传帧图

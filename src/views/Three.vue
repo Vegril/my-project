@@ -342,7 +342,6 @@ export default {
         options.specular = "#4488ee";
         options.shininess = 12;
       }
-      console.log(options);
       switch (this.geometryoptions.material) {
         case 1:
           return new THREE.MeshBasicMaterial(options);

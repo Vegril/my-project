@@ -33,7 +33,6 @@ export default {
     };
   },
   mounted() {
-    console.log(vec2.create(1.0,1.0));
     console.time('webgl');
     this.glcanvas = this.$refs.glcanvas;
     this.gl = this.glcanvas.getContext("webgl");
