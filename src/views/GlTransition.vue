@@ -225,7 +225,6 @@ export default {
     },
   },
   mounted: async function () {
-    console.log("jenkins自动构建测试")
     this.outImage = this.$refs.outImage;
     this.openImage = this.$refs.openImage;
     this.canvas = this.$refs.canvas;
