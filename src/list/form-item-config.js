@@ -1,6 +1,6 @@
-const getImage=function(src){
-  const image=new Image();
-  image.src=src;
+const getImage = function (src) {
+  const image = new Image();
+  image.src = src;
   return image;
 }
 export const formItemConfig = {
@@ -105,6 +105,56 @@ export const formItemConfig = {
       type: 9,
       image: getImage(require("../assets/images/twist-img/9.png")),
       src: require("../assets/images/twist-img/9.png")
+    }, {
+      name: '扭曲样式',
+      type: 10,
+      image: getImage(require("../assets/images/twist-img/10.png")),
+      src: require("../assets/images/twist-img/10.png")
+    }, {
+      name: '扭曲样式',
+      type: 11,
+      image: getImage(require("../assets/images/twist-img/11.png")),
+      src: require("../assets/images/twist-img/11.png")
+    }, {
+      name: '扭曲样式',
+      type: 12,
+      image: getImage(require("../assets/images/twist-img/12.png")),
+      src: require("../assets/images/twist-img/12.png")
+    }, {
+      name: '扭曲样式',
+      type: 13,
+      image: getImage(require("../assets/images/twist-img/13.png")),
+      src: require("../assets/images/twist-img/13.png")
+    }, {
+      name: '扭曲样式',
+      type: 14,
+      image: getImage(require("../assets/images/twist-img/14.png")),
+      src: require("../assets/images/twist-img/14.png")
+    }, {
+      name: '扭曲样式',
+      type: 15,
+      image: getImage(require("../assets/images/twist-img/15.png")),
+      src: require("../assets/images/twist-img/15.png")
+    }, {
+      name: '扭曲样式',
+      type: 16,
+      image: getImage(require("../assets/images/twist-img/16.png")),
+      src: require("../assets/images/twist-img/16.png")
+    }, {
+      name: '扭曲样式',
+      type: 17,
+      image: getImage(require("../assets/images/twist-img/17.png")),
+      src: require("../assets/images/twist-img/17.png")
+    }, {
+      name: '扭曲样式',
+      type: 18,
+      image: getImage(require("../assets/images/twist-img/18.png")),
+      src: require("../assets/images/twist-img/18.png")
+    }, {
+      name: '扭曲样式',
+      type: 19,
+      image: getImage(require("../assets/images/twist-img/19.png")),
+      src: require("../assets/images/twist-img/19.png")
     }, ]
   },
   strength: {
@@ -270,7 +320,7 @@ export const formItemConfig = {
     data: [{
       name: '中心点x',
       value: 0.5,
-    },{
+    }, {
       name: '中心点y',
       value: 0.5,
     }]
@@ -418,7 +468,57 @@ export const formItemConfig = {
       type: 9,
       image: getImage(require("../assets/images/twist-img/9.png")),
       src: require("../assets/images/twist-img/9.png")
-    }, ]
+    }, {
+      name: '扭曲样式',
+      type: 10,
+      image: getImage(require("../assets/images/twist-img/10.png")),
+      src: require("../assets/images/twist-img/10.png")
+    }, {
+      name: '扭曲样式',
+      type: 11,
+      image: getImage(require("../assets/images/twist-img/11.png")),
+      src: require("../assets/images/twist-img/11.png")
+    }, {
+      name: '扭曲样式',
+      type: 12,
+      image: getImage(require("../assets/images/twist-img/12.png")),
+      src: require("../assets/images/twist-img/12.png")
+    }, {
+      name: '扭曲样式',
+      type: 13,
+      image: getImage(require("../assets/images/twist-img/13.png")),
+      src: require("../assets/images/twist-img/13.png")
+    }, {
+      name: '扭曲样式',
+      type: 14,
+      image: getImage(require("../assets/images/twist-img/14.png")),
+      src: require("../assets/images/twist-img/14.png")
+    }, {
+      name: '扭曲样式',
+      type: 15,
+      image: getImage(require("../assets/images/twist-img/15.png")),
+      src: require("../assets/images/twist-img/15.png")
+    }, {
+      name: '扭曲样式',
+      type: 16,
+      image: getImage(require("../assets/images/twist-img/16.png")),
+      src: require("../assets/images/twist-img/16.png")
+    }, {
+      name: '扭曲样式',
+      type: 17,
+      image: getImage(require("../assets/images/twist-img/17.png")),
+      src: require("../assets/images/twist-img/17.png")
+    }, {
+      name: '扭曲样式',
+      type: 18,
+      image: getImage(require("../assets/images/twist-img/18.png")),
+      src: require("../assets/images/twist-img/18.png")
+    }, {
+      name: '扭曲样式',
+      type: 19,
+      image: getImage(require("../assets/images/twist-img/19.png")),
+      src: require("../assets/images/twist-img/19.png")
+    },]
   },
   persp: {
     name: '透视',
@@ -592,13 +692,13 @@ export const formItemConfig = {
     data: [{
       name: 'x',
       value: 0,
-    },{
+    }, {
       name: 'y',
       value: 0.2,
-    },{
+    }, {
       name: 'z',
       value: 0.4,
-    },{
+    }, {
       name: 'w',
       value: 1,
     }]
@@ -613,13 +713,13 @@ export const formItemConfig = {
     data: [{
       name: 'x',
       value: 0.6,
-    },{
+    }, {
       name: 'y',
       value: 0.8,
-    },{
+    }, {
       name: 'z',
       value: 1,
-    },{
+    }, {
       name: 'w',
       value: 1,
     }]
@@ -646,7 +746,7 @@ export const formItemConfig = {
     data: [{
       name: '宽度',
       value: 20,
-    },{
+    }, {
       name: '高度',
       value: 20,
     }]
@@ -811,7 +911,7 @@ export const formItemConfig = {
     data: [{
       name: '宽度',
       value: 10,
-    },{
+    }, {
       name: '高度',
       value: 10,
     }]

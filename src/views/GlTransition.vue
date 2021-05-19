@@ -123,7 +123,6 @@
                 :class="{ active: item.selectedType === data.type }"
                 v-for="(data, dataIndex) in item.data"
                 :key="dataIndex"
-                :style="{ width: '40px' }"
                 :src="data.src"
                 @click="item.selectedType=data.type"
               />
@@ -167,8 +166,8 @@ export default {
       glCanvas: null,
       gl: null,
       transition: null,
-      width: 640,
-      height: 360,
+      width: 1280,
+      height: 720,
       currentTime: 0,
       isPlaying: false,
       startPlayTime: 0,
@@ -392,9 +391,14 @@ export default {
     }
     .selectImage{
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: space-around;
       cursor: pointer;
+      img{
+        width: 50px;
+        margin:10px;
+      }
     }
     .active {
       border: 1px solid #3485fb;
