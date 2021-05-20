@@ -70,7 +70,7 @@ export default {
   },
   methods:{
     getAllUserInfo:function(){
-      this.$axios.get('http://192.168.160.137:8081/user/findAll').then(res=>{
+      this.$axios.get('http://192.168.180.41:8081/user/findAll').then(res=>{
         if(res.status==200){
           this.userList=res.data;
           this.userList.map(item=>{
@@ -80,7 +80,7 @@ export default {
       })
     },
     deleUser:function(id){
-      this.$axios.get('http://192.168.160.137:8081/user/deleteById',{
+      this.$axios.get('http://192.168.180.41:8081/user/deleteById',{
         params:{
           id
         }
@@ -97,7 +97,7 @@ export default {
       if(this.userInfo.id){
 
       }else{
-        this.$axios.post('http://192.168.160.137:8081/user/saveOrUpdate',this.userInfo).then(res=>{
+        this.$axios.post('http://192.168.180.41:8081/user/saveOrUpdate',this.userInfo).then(res=>{
           if(res.status==200){
             this.getAllUserInfo();
           }
