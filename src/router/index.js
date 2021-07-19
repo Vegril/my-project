@@ -73,6 +73,11 @@ const routes = [
     path: '/Webgl',
     name: 'Webgl',
     component: () => import(/* webpackChunkName: "about" */ '../views/WebGL.vue')
+  },
+  {
+    path: '/glsl-reader',
+    name: 'GlslReader',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GlslReader.vue')
   }
 ]
 
